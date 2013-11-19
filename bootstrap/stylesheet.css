@@ -22,21 +22,21 @@ table {
 	color:#ffffff;
 }
 
-#inline {
+.inline {
 	font-weight: bold;
 	color: #2aba0d;
 }
 
-#block {
+.block {
 	font-weight: bold;
 	color: #c21310;
 }
 
-#haekchen {
+.haekchen {
 	background-color: #2aba0d;
 }
 
-#kreuz {
+.kreuz {
 	background-color: #c21310;
 }
 
