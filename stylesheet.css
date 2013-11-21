@@ -40,6 +40,10 @@ table {
 	background-color: #c21310;
 }
 
-tr:nth-of-type(odd) {
+.row-background {
 	background-color: #d1e6d1;
+}
+
+.monospace {
+	font-family: monospace;
 }
