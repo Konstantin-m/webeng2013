@@ -2,19 +2,19 @@ table {
 	margin: auto;
 }
 
-#a {
+#xhtml-table {
 	font-family: sans-serif;
 	border-collapse: collapse;
 }
 
-#a th, #a td {
+#xhtml-table th, #xhtml-table td {
 	font-size: 1em;
-	border: 1px solid #088042;
+	border: 1px solid #064725;
 	text-align: center;
 	padding: 3px 7px 2px 7px;
 }
 
-#a th {
+#xhtml-table th {
 	font-size: 1.1em;
 	padding-top: 5px;
 	padding-bottom: 4px;
@@ -41,7 +41,7 @@ table {
 }
 
 .row-background {
-	background-color: #d1e6d1;
+	background-color: #bce6bc;
 }
 
 .monospace {
