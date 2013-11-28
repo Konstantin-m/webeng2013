@@ -1,5 +1,25 @@
+#form {
+	width: 11%;
+	float: right;
+}
+
+#form-position {
+	position: fixed;
+}
+
+#form p {
+	margin: 0px;
+	padding: 3px;
+	
+}
+
+h1 {
+	float: left;
+}
+
 table {
 	margin: auto;
+	float : left;
 }
 
 #xhtml-table {
@@ -46,4 +66,9 @@ table {
 
 .monospace {
 	font-family: monospace;
+}
+
+#footer {
+	float: left;
+	clear: both;
 }
