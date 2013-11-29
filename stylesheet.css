@@ -18,10 +18,10 @@ html {
 	
 }
 
-h2 {
+h1 {
 	float: left;
 	color: #ecf0f1;
-	font-weight: bold;
+	font-size: 1.3em;
 }
 
 table {
