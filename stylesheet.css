@@ -29,6 +29,8 @@ table {
 	margin: auto;
 	float : left;
 	color: #ecf0f1;
+	width: 60%;
+	clear: left;
 }
 
 #xhtml-table {
@@ -48,6 +50,10 @@ table {
 	padding-top: 5px;
 	padding-bottom: 4px;
 	background-color: #2e9e5d;
+}
+
+#th-width {
+	width: 10%;
 }
 
 .inline {
