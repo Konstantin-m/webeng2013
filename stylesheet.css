@@ -3,24 +3,24 @@ html {
 }
 
 #form {
-	width: 11%;
-	float: right;
+	overflow: hidden;
+	width: 99%;
+	position: fixed;
 	color: #ecf0f1;
 }
 
 #form-position {
-	position: fixed;
+	float: right;
 }
 
 #form p {
-	margin: 0px;
+	margin: auto;
 	padding: 3px;
-	
 }
 
 h1 {
 	float: left;
-	color: #ecf0f1;
+	color: #27ae60;
 	font-size: 1.3em;
 	text-decoration: underline;
 }
@@ -29,7 +29,7 @@ table {
 	margin: auto;
 	float : left;
 	color: #ecf0f1;
-	width: 60%;
+	width: 80%;
 	clear: left;
 }
 
