@@ -2,35 +2,22 @@ html {
 	background-color: #141210;
 }
 
-#form {
-	overflow: hidden;
-	width: 99%;
-	position: fixed;
-	color: #ecf0f1;
-}
-
-#form-position {
-	float: right;
-}
-
-#form p {
-	margin: auto;
-	padding: 3px;
-}
-
-h1 {
-	float: left;
+h1#table-h1 {
 	color: #27ae60;
-	font-size: 1.3em;
+	font-size: 1.5em;
 	text-decoration: underline;
+	text-align: center;
+	margin-bottom: 20px;
 }
 
-table {
+table#xhtml-table {
 	margin: auto;
 	float : left;
 	color: #ecf0f1;
 	width: 80%;
 	clear: left;
+	margin-left: 10%;
+	margin-right: 10%;
 }
 
 #xhtml-table {
@@ -52,8 +39,8 @@ table {
 	background-color: #2e9e5d;
 }
 
-#th-width {
-	width: 10%;
+.th-width {
+	width: 5%;
 }
 
 .inline {
