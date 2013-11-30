@@ -2,7 +2,84 @@ html {
 	background-color: #141210;
 }
 
-h1#table-h1 {
+#banner {
+	overflow: hidden;
+	width: 100%;
+	height: 85px;
+	position: fixed;
+	background-color: #2980b9;
+	top: 0;
+	left: 0;
+}
+
+#banner-content {
+	margin: 0 auto;
+	
+}
+
+#banner-list {
+	position: relative;
+	width: 30%;
+	margin: auto;
+	padding: 10px;
+	float: left;
+}
+
+#banner-list li {
+   list-style: none;
+   display: block;
+   float: left;
+}
+
+#banner-list li a {
+ 	text-shadow: 0 2px 1px rgba(0,0,0,0.5);
+    display: block;
+    text-decoration: none;
+    color: #f0f0f0;
+    font-size: 1.6em;
+    margin: 0.5em;
+    font-size: 1.3em;
+    text-align: center;
+    padding-top: 0.5em;
+    
+    box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    height: 35px;
+    width: 130px;
+    background-color: #3498db;
+}
+
+#banner-list li a:hover {
+	margin-top: 13px;
+	background-color: #f0f0f0;
+	color: #3498db;
+}
+
+#form {
+	position: relative;
+	float: right;
+	color: #f0f0f0;
+}
+
+#form fieldset {
+	padding: 2px;
+}
+
+#form p {
+	margin: auto;
+	padding: 3px;
+}
+
+.content {margin-top: 100px;}
+
+h1 {
+	color: #2c3e50;
+	text-align: center;
+	font-size: 3em;
+}
+
+#table-h1 {
 	color: #27ae60;
 	font-size: 1.5em;
 	text-decoration: underline;
@@ -10,7 +87,9 @@ h1#table-h1 {
 	margin-bottom: 20px;
 }
 
-table#xhtml-table {
+#xhtml-table {
+	font-family: sans-serif;
+	border-collapse: collapse;
 	margin: auto;
 	float : left;
 	color: #ecf0f1;
@@ -18,11 +97,6 @@ table#xhtml-table {
 	clear: left;
 	margin-left: 10%;
 	margin-right: 10%;
-}
-
-#xhtml-table {
-	font-family: sans-serif;
-	border-collapse: collapse;
 }
 
 #xhtml-table th, #xhtml-table td {
@@ -74,6 +148,6 @@ table#xhtml-table {
 	clear: both;
 }
 
-a:link {color: #3498db;}
-a:visited {color: #9b59b6;}
-a:hover {color: #2980b9;}
+#footer a:link {color: #3498db;}
+#footer a:visited {color: #9b59b6;}
+#footer a:hover {color: #2980b9;}
