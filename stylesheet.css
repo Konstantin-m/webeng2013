@@ -57,13 +57,15 @@ html {
 }
 
 #form {
-	position: relative;
-	float: right;
 	color: #f0f0f0;
+	width: 10%;
+	padding-left: 45%;
 }
 
 #form fieldset {
 	padding: 2px;
+	border: 5px solid white;
+	border-radius: 10px;
 }
 
 #form p {
@@ -71,12 +73,58 @@ html {
 	padding: 3px;
 }
 
-.content {margin-top: 100px;}
+#form input {
+	color: #2c3e50;
+	border: 5px solid #bdc3c7; 
+    -webkit-box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    background: #7f8c8d;
+    border-radius: 5px;
+}
+
+#form input:hover, #form input:focus {
+	outline: none;
+	border-color: #9ecaed;
+	box-shadow: 0 0 10px #9ecaed;
+}
+
+#form button {
+	color: #2c3e50;
+	height: 30px;
+	border: 5px solid #bdc3c7; 
+    -webkit-box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    background: #7f8c8d;
+    border-radius: 5px;
+}
+
+#form button:hover, #form button:focus {
+	outline: none;
+	border-color: #9ecaed;
+	box-shadow: 0 0 10px #9ecaed;
+}
+
+.content {
+	margin-top: 100px;
+	min-height: 100%;
+	padding-bottom: 50px;
+	height: 100%;
+}
 
 h1 {
 	color: #2c3e50;
 	text-align: center;
 	font-size: 3em;
+	padding-bottom: 10px;
+	text-decoration: underline;
 }
 
 #table-h1 {
@@ -143,9 +191,15 @@ h1 {
 }
 
 #footer {
-	color: #ecf0f1;
-	float: left;
 	clear: both;
+	position: relative;
+	background-color: #2980b9;
+	width: 100%;
+	color: #ecf0f1;
+	left: 0;
+	bottom: 0;
+	top: 20px;
+	
 }
 
 #footer a:link {color: #3498db;}
