@@ -69,8 +69,8 @@ html, body {height: 100%}
 
 #form {
 	color: #f0f0f0;
-	width: 15%;
-	padding-left: 42.5%;
+	width: 10%;
+	padding-left: 45%;
 }
 
 #form fieldset {
@@ -82,7 +82,6 @@ html, body {height: 100%}
 #form p {
 	margin: auto;
 	padding: 3px;
-	color: #355575;
 }
 
 #form input {
@@ -123,8 +122,6 @@ html, body {height: 100%}
 	border-color: #9ecaed;
 	/*box-shadow: 0 0 10px #9ecaed;*/
 }
-
-#wcag {padding-top: 10px;}
 
 .content {
 	padding-top: 130px;
