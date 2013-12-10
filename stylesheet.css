@@ -13,7 +13,7 @@ html, body {height: 100%;}
 	width: 100%;
 	height: 85px;
 	position: fixed;
-	background-color: #2980b9;
+	background-color: #222222;
 	top: 0;
 	left: 0;
 }
@@ -41,7 +41,7 @@ html, body {height: 100%;}
  	/*text-shadow: 0 2px 1px rgba(0,0,0,0.5);*/
     display: block;
     text-decoration: none;
-    color: #f0f0f0;
+    color: #939393;
     font-size: 1.6em;
     margin: 0.5em;
     font-size: 1.3em;
@@ -53,18 +53,14 @@ html, body {height: 100%;}
     -webkit-border-radius: 3px;*/
     height: 35px;
     width: 130px;
-    background-color: #3498db;
+    background-color: #222222;
 }
 
-#banner-list li a:hover {
-	margin-top: 13px;
-	background-color: #f0f0f0;
-	color: #3498db;
-}
+#banner-list li a:hover {color: #d7d7d7;}
 
 .pressed a {
-	background-color: #f0f0f0 !important;
-	color: #3498db !important;
+	background-color: #080808 !important;
+	color: #d7d7d7 !important;
 }
 
 #form {
@@ -205,7 +201,7 @@ h1 {
 #footer {
 	clear: both;
 	position: relative;
-	background-color: #2980b9;
+	background-color: #222222;
 	width: 100%;
 	color: #ecf0f1;
 	top: 50px;
