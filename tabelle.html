@@ -3,23 +3,65 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="de">
 	<head>
 		<meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
-		<link rel="stylesheet" type="text/css" href="stylesheet.css"/>
-		<title>Tabelle der XHTML 1.0 Strict Elemente</title>
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	    <meta name="description" content=""/>
+	    <meta name="author" content=""/>
+    	<link rel="shortcut icon" href="/docs-assets/ico/favicon.png"/>
+		<link rel="stylesheet" href="/CSS2 for Table bootstrap.css"/>
+		<link href="/CSS2 for Table carousel.css" rel="stylesheet"/>
+		<title>Willkommen!</title>
 	</head>
-	<body>
-		<div id="banner">
-			<div id="banner-content">
-				<ul id="banner-list">
-					<li><a href="/">Start</a></li>
-					<li class="pressed"><a href="/tabelle.html">Tabelle</a></li>
-					<li><a href="wikipedia-suche.html">Wikipedia</a></li>
-				</ul>
-			</div>
-		</div>
+	
+<!-- NAVBAR
+================================================== -->
+  <body>
+    <div class="navbar-wrapper">
+      <div class="container">
+
+         <div class="navbar navbar-inverse navbar-static-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="/">Konstantin M&uuml;ller</a>
+            </div>
+            <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li><a href="/">Start</a></li>
+                <li class="active"><a href="/tabelle.html">Tabelle</a></li>
+                <li><a href="/wikipedia-suche.html">Wikipedia</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle">Hilfe <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="/impressum.html">Impressum</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+	
+	    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing">
+
+      <!-- START THE FEATURETTES -->
+
+	<hr class="featurette-divider"/>
 	
 		<div class="content">
 			<h1>Tabelle der XHTML 1.0 Strict Elemente</h1>
-			<table id="xhtml-table">
+			<div class="table table-bordered">
+			<table class="table table-hover">
 				<thead>
 					<tr>
 						<th>Element-Tag</th>
@@ -534,10 +576,12 @@
 						<td class="haekchen">&#10004;</td>
 					</tr>
 				</tbody>
+
 			</table>
+			</div>
 		</div>
 		
-		<div id="footer">
+		<div>
 		  	<p>
 		  		<br/>
 		    	<a href="http://validator.w3.org/check?uri=referer" onclick="this.target='_blank'"><img
@@ -545,12 +589,27 @@
 				
 				<a href="http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fkonstantinmueller.cloudcontrolled.com%2Ftabelle.html&profile=css2&usermedium=all&warning=1&vextwarning=&lang=en" onclick="this.target='_blank'"><img
 	        		src="http://www.w3.org/Icons/valid-css2-blue" alt="CSS ist valide!" height="31" width="88"/></a>
-	        		
-	        	<a href="http://wave.webaim.org/report#/konstantinmueller.cloudcontrolled.com/tabelle.html" title="WCAG 2.0 Triple-A valide" onclick="this.target='_blank'"><img
-	        		src="http://w3.org/WAI/wcag2AAA" alt="Valides WCAG 2.0 Triple-A" height="31" width="88"/></a>
 		 	</p>
-		
-			<address>Geschrieben von: <a href="mailto:konstantin.mueller@mni.thm.de">Konstantin M&uuml;ller</a></address>
 		</div>
+		
+	<hr class="featurette-divider"/>
+
+      <!-- /END THE FEATURETTES -->
+
+
+      <!-- FOOTER -->
+      <div>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>&copy; 2013 Konstantin M&uuml;ller &middot; <a href="impressum.html">Impressum</a></p>
+      </div>
+
+    </div><!-- /.container -->
+    
+        <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="/dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/docs-assets/js/holder.js"></script>
 	</body>
 </html>

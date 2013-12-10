@@ -10,7 +10,7 @@
     <link rel="shortcut icon" href="/docs-assets/ico/favicon.png">
 		<link rel="stylesheet" href="/dist/css/bootstrap.css"/>
 		<link href="carousel.css" rel="stylesheet"/>
-		<title>Wikipedia-Suche</title>
+		<title>Impressum</title>
 	</head>
 	
 <!-- NAVBAR
@@ -34,11 +34,11 @@
               <ul class="nav navbar-nav">
                 <li><a href="/">Start</a></li>
                 <li><a href="/tabelle.html">Tabelle</a></li>
-                <li class="active"><a href="/wikipedia-suche.html">Wikipedia</a></li>
-                <li class="dropdown">
+                <li><a href="/wikipedia-suche.html">Wikipedia</a></li>
+                <li class="active" class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown">Hilfe <b class="caret"></b></a>
                   <ul class="dropdown-menu">
-                    <li><a href="/impressum.html">Impressum</a></li>
+                    <li class="active"><a href="/impressum.html">Impressum</a></li>
                   </ul>
                 </li>
               </ul>
@@ -58,19 +58,15 @@
       <!-- START THE FEATURETTES -->
 
 	<hr class="featurette-divider">
-				
-	<form action="http://de.wikipedia.org/wiki/Spezial:Suche" onclick="this.target='_blank'" role="form">
-	  <fieldset>
-	    <legend>Wikipedia-Suche</legend>
-	    <p><label>Suchbegriff: <input class="form-control" type="text" name="search" value="" alt="Bitte Wikipedia-Suchbegriff eingeben"/></label></p>
-	    <p><button type="submit"  class="btn btn-default" name="go" value="Artikel">Artikel</button>
-	    <button type="submit"  class="btn btn-default" name="fulltext" value="Volltext">Volltext</button></p>
-	  </fieldset>
-	</form>
-		
-	<p><a class="pull-right" href="http://wave.webaim.org/report#/konstantinmueller.cloudcontrolled.com/wikipedia-suche.html" title="WCAG 2.0 Triple-A valide" onclick="this.target='_blank'"><img
-        	src="http://w3.org/WAI/wcag2AAA" alt="Valides WCAG 2.0 Triple-A" height="31" width="88"/></a></p>
-		
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Impressum</h2>
+          <p class="lead">Konstantin M&uuml;ller
+          <br/>E-Mail: <a href="mailto:konstantin.mueller@mni.thm.de">konstantin.mueller@mni.thm.de</a></p>
+        </div>
+      </div>
+
       <hr class="featurette-divider">
 
       <!-- /END THE FEATURETTES -->
@@ -89,7 +85,7 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-    <script src="/dist/js/bootstrap.min.js"></script>
-    <script src="/docs-assets/js/holder.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <script src="../../docs-assets/js/holder.js"></script>
   </body>
 </html>
